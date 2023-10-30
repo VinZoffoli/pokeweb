@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" href="./assets/Icon-Pokeball.png" type="image/x-icon">
+    <title>Inicio Cards&Games</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav class="sticky-navbar">
+        <div class="nav__bar">
+          <div class="nav__logo"><a href="#">Cards & Games</a></div>
+          <ul class="nav__links">
+            <li class="link"><a href="#home">Inicio</a></li>
+            <li class="link"><a href="#about">Tendencias</a></li>
+            <li class="link"><a href="#discover">Cartas</a></li>
+            <li class="link"><a href="#blog">Productos</a></li>
+            <li class="link"><a href="#journals">Juegos</a></li>
+            <li class="link"><a href="#gallery">Personajes</a></li>
+            <li class="link"><a href="#razones">Razones</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container">
+        <div class="video-background">
+          <video autoplay muted loop id="video-background">
+            <source
+              src="./assets/video/Pokémon TCG_ Sword & Shield—Vivid Voltage _ Available Now!_Trim.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div class="video-overlay"></div>
+        </div>
+        <h1>
+          ¡Dale un vistazo a la nueva expansion y demuestra quien es el mejor!
+        </h1>
+        <h4>Cards & Games</h4>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__content">
+          <h2 class="section__header">Sobre nosotros</h2>
+          <p class="section__subheader">
+            Nuestra historia comenzó el 21 de noviembre de 2020, y desde
+            entonces, cada día ha sido un capítulo de amor y crecimiento
+            compartido. A pesar de los kilómetros que nos separan, nuestro amor
+            ha demostrado ser más fuerte que cualquier distancia física.
+            <br />
+            <br />
+            Cada momento que compartimos se convierte en un recuerdo que atesoro
+            en lo más profundo de mi corazón. Tu sonrisa, tus palabras, cada
+            pequeño gesto, todos se suman para crear una montaña de felicidad
+            que ilumina mis días. Tu amor ha tejido un lienzo de alegría en mi
+            vida, y cada día que pasa me doy cuenta de cuán afortunado soy de
+            tenerte a mi lado.
+          </p>
+          <div class="about__flex">
+            <div class="about__card">
+              <h4>1015</h4>
+              <p>Dias juntos</p>
+            </div>
+            <div class="about__card">
+              <h4>+100k</h4>
+              <p>de mensajes</p>
+            </div>
+            <div class="about__card">
+              <h4>∞</h4>
+              <p>"Te amo"</p>
+            </div>
+          </div>
+        </div>
+        <div class="about__image">
+          <img src="assets/juntos.png" alt="about" />
+        </div>
+      </div>
+    </section>
+
+    <section class="discover" id="discover">
+      <div class="section__container discover__container">
+        <h2 class="section__header">Cartas mas valoradas</h2>
+        <p class="section__subheader">
+          Las cartas mas costosas de la historia de Pokémon.
+        </p>
+        <div class="discover__grid">
+          <div class="discover__card">
+            <div class="discover__image">
+              <img
+                src="./assets/Carta-Charizard.webp"
+                alt="discover"
+                class="rounded-image"
+              />
+            </div>
+            <div class="discover__card__content">
+              <h4>Charizard Holográfico</h4>
+              <p>
+                Es una de las primeras cartas de Pokémon que se lanzaron, un diseño holográfico del Pokémon de fuego. Ha llegado a subastarse por 369.000 dólares (345.000 euros). 
+              </p>
+            </div>
+          </div>
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="./assets/Carta-Pikachu.png" alt="discover" class="rounded-image"/>
+            </div>
+            <div class="discover__card__content">
+              <h4>Pikachu Illustrator</h4>
+              <p>
+                Pikachu Illustrator es la joya de la corona. Se entregó a los ganadores de un concurso de ilustraciones de la revista Coro Coro Comic. Es una tarjeta muy exclusiva y especial de la que existen muy pocas unidades. Se vendió una de ellas por 375.000 dólares (unos 350.000 euros),
+              </p>
+            </div>
+          </div>
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="./assets/Carta-Blastoise.jpg" alt="discover" class="rounded-image"/>
+            </div>
+            <div class="discover__card__content">
+              <h4>Blastoise Galaxy Star Holográfico</h4>
+              <p>
+                Fue un modelo especial diseñado por Wizards of the Coast antes del lanzamiento oficial del juego de cartas en Estados Unidos. Se vendió por 360.000 dólares (336.000 euros).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs" id="blog">
+      <div class="blogs__container">
+        
+        <h2 class="section__header">Nuestros Gatitos</h2>
+        
+        <p class="section__subheader">
+          Aquellos compañeros peludos que nos hacen la vida mas bonita
+        </p>
+        <div class="blogs__grid">
+          <div class="blogs__card">
+            <img src="./assets/Telcky.jpeg" alt="blog" />
+            <div class="blogs__content">
+              Telcky: Coqueto, Cariñoso, Tierno, Intenso, Gordito.
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="./assets/Sky.jpeg" alt="blog" />
+            <div class="blogs__content">
+              Sky: Bipolar, Loco, Llorón, Amoroso, Asustadizo.
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="./assets/Pelcky.jpeg" alt="blog" />
+            <div class="blogs__content">
+              Pelcky: Dormilón, Aventurero, Serio, Curioso, Territorial.
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="./assets/Mio.jpg" alt="blog" />
+            <div class="blogs__content">
+              Mio: Cariñoso, Unisex, Viejo, Peludito, Apegado.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journals" id="journals">
+      <div class="section__container journals__container">
+        <h2 class="section__header">Nuestros juegos mas jugados</h2>
+        <p class="section__subheader">
+          Los videojuegos nos han permitido compartir momentos inolvidables y
+          divertidos, creando nuestra propia conexión única a pesar de la
+          distancia. Cada juego es un recordatorio de que nuestro amor supera
+          cualquier obstáculo. Gracias por hacer que incluso la distancia se
+          sienta pequeña y por llenar cada pantalla con alegría y amor.
+        </p>
+        <div class="journals__grid">
+          <div class="journals__card">
+            <img src="./assets/Genshin.jpg" alt="journal" />
+            <div class="journals__content">
+              <h4>Genshin Impact</h4>
+              <div class="journals__footer">
+                <p>Nuestro primer juego</p>
+              </div>
+            </div>
+          </div>
+          <div class="journals__card">
+            <img src="./assets/TheForest.jpg" alt="journal" />
+            <div class="journals__content">
+              <h4>The Forest</h4>
+              <div class="journals__footer">
+                <p>Nuestra primera supervivencia juntos</p>
+              </div>
+            </div>
+          </div>
+          <div class="journals__card">
+            <img src="./assets/GreenHell.jpg" alt="journal" />
+            <div class="journals__content">
+              <h4>Green Hell</h4>
+              <div class="journals__footer">
+                <p>Nuestra primera historia en conjunto</p>
+              </div>
+            </div>
+          </div>
+          <div class="journals__card">
+            <img src="./assets/Stardew.webp" alt="journal" />
+            <div class="journals__content">
+              <h4>Stardew Valley</h4>
+              <div class="journals__footer">
+                <p>Nuestra primera granja</p>
+              </div>
+            </div>
+          </div>
+          <div class="journals__card">
+            <img src="./assets/DarkSouls.jpg" alt="journal" />
+            <div class="journals__content">
+              <h4>Dark Souls</h4>
+              <div class="journals__footer">
+                <p>Nuestra mas dificil aventura</p>
+              </div>
+            </div>
+          </div>
+          <div class="journals__card">
+            <img src="./assets/Pokemon.jpg" alt="journal" />
+            <div class="journals__content">
+              <h4>Pokémon Let's Go: Pikachu/Eevee</h4>
+              <div class="journals__footer">
+                <p>Nuestro primera historia Pokémon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="section__container hero__container">
+        <p>Popoki</p>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="gallery__container">
+        <h2 class="section__header">Personajes Favoritos</h2>
+        <p class="section__subheader">
+          Algunos de tus personajes favoritos, preciosa
+        </p>
+        <div class="gallery__grid">
+          <div class="gallery__card">
+            <img
+              src="./assets/desktop-wallpaper-berserk-red-swordsman-manga-guts-anime.jpg"
+              alt="gallery"
+            />
+            <div class="gallery__content">
+              <h4>Berserk</h4>
+              <p>Guts</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="./assets/71Ap2yZ-I5L.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Dio</h4>
+              <p>JoJo's: Bizarre Adventures</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="./assets/7801204.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Neco-Arc</h4>
+              <p>Fate/Grand Carnival</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img
+              src="./assets/e9b292a23f2c42fd30563a0646a934f0.jpg"
+              alt="gallery"
+            />
+            <div class="gallery__content">
+              <h4>Hisoka</h4>
+              <p>Hunter x Hunter</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img
+              src="./assets/kirby-phone-wallpaper-hd-uhdpaper.com-799@0@i.jpg"
+              alt="gallery"
+            />
+            <div class="gallery__content">
+              <h4>Kirby</h4>
+              <p>Kirby</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="razones" class="projcard-container">
+      <h2 class="section__header">Razones por las cuales te amo</h2>
+      <div class="projcard projcard-blue">
+        <div class="projcard-innerbox">
+          <img class="projcard-img" src="./assets/5.jpeg" />
+          <div class="projcard-textbox">
+            <div class="projcard-title">Sincera</div>
+            <div class="projcard-subtitle">
+              Amo tu ternura y cómo cuidas de mí
+            </div>
+            <div class="projcard-bar"></div>
+            <div class="projcard-description">
+              Eres la luz que ilumina mi camino y la razón por la que mi corazón
+              late con alegría. Tu cariño y tus cualidades hacen que cada
+              momento a tu lado sea un regalo inmenso.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projcard projcard-red">
+        <div class="projcard-innerbox">
+          <img class="projcard-img" src="./assets/20230717_141257.jpg" />
+          <div class="projcard-textbox">
+            <div class="projcard-title">Cariñosa</div>
+            <div class="projcard-subtitle">
+              Amo cada vez que me hace reír, incluso en los momentos difíciles.
+            </div>
+            <div class="projcard-bar"></div>
+            <div class="projcard-description">
+              Eres una persona única, llena de generosidad, sabiduría y amor.
+              Cada día a tu lado es un recordatorio constante de lo afortunado
+              que soy por tenerte en mi vida.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projcard projcard-green">
+        <div class="projcard-innerbox">
+          <img class="projcard-img" src="./assets/2.jpeg" />
+          <div class="projcard-textbox">
+            <div class="projcard-title">Divertida</div>
+            <div class="projcard-subtitle">
+              Amo cómo compartes tus sueños y metas conmigo.
+            </div>
+            <div class="projcard-bar"></div>
+            <div class="projcard-description">
+              Eres más que mi novia, eres mi compañera de vida. Juntos
+              compartimos risas, desafíos y sueños, construyendo un camino que
+              recorremos juntos.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="projcard projcard-customcolor"
+        style="--projcard-color: #f5af41"
+      >
+        <div class="projcard-innerbox">
+          <img class="projcard-img" src="./assets/20230712_181207.jpg" />
+          <div class="projcard-textbox">
+            <div class="projcard-title">Inteligente</div>
+            <div class="projcard-subtitle">
+              Amo la manera en que luchas por nuestra relación a pesar de la
+              distancia.
+            </div>
+            <div class="projcard-bar"></div>
+            <div class="projcard-description">
+              Cada día nos acerca más a un futuro en el que la distancia será
+              solo un recuerdo y estaremos unidos sin límites.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="infinite-slider">
+      <div class="items">
+        <div class="item item-1"></div>
+        <div class="item item-2"></div>
+        <div class="item item-3"></div>
+        <div class="item item-4"></div>
+        <div class="item item-5"></div>
+        <div class="item item-6"></div>
+        <div class="item item-7"></div>
+      </div>
+    </div>
+
+    <section class="contact" id="contact">
+        <div id="download" class="contact__col">
+          <h4>¡Descarga tu cartita!</h4>
+          <div class="container">
+            <a class="pokeball" href="./Carta_Emita.pdf" download></a>
+          </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="section__container footer__container">
+        <h4>Popokilandia</h4>
+        <p>
+          Que el destino no deje separarnos nunca. Somos un equipo, hoy y siempre. Eres mi fiel compañera, te amo, mi niña, espero te haya gustado la pagina
+        </p>
+        <ul class="footer__nav">
+          <li class="footer__link"><a href="#home">Inicio</a></li>
+          <li class="footer__link"><a href="#about">Sobre Nosotros</a></li>
+          <li class="footer__link"><a href="#discover">Pokémon</a></li>
+          <li class="footer__link"><a href="#blog">Gatitos</a></li>
+          <li class="footer__link"><a href="#journals">Juegos</a></li>
+          <li class="footer__link"><a href="#gallery">Personajes</a></li>
+          <li class="footer__link"><a href="#razones">Razones</a></li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Vincenzo Fernando Zoffoli Toro
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
